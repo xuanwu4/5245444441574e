@@ -13,6 +13,6 @@ function drowsap(){
    else if(i === "only on tuesdays"){page = "personnel/83f20446964206e6f742074686520477265";}
    else if(i === "no differently than the hawk"){page = "personnel/56d20616c6c20666f722074686520757365";}
 
-   if(!(page === "")){out.innerHTML = "<a href=\"" + page + "\" style=\"color:green;\">Access Granted.</a>";}
+   if(!(page === "")){out.innerHTML = "<a href=\"" + page + "\" style=\"color:Chartreuse;\">Access Granted.</a>";}
    else{out.innerHTML = "";}
 }
