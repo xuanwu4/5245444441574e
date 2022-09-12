@@ -1,5 +1,5 @@
 function drowsap(){
-   let i = document.getElementById("in");
+   let i = document.getElementById("in").value;
    let out = document.getElementById("result");
    let page = "";
    if(i === "through snow or rain or heat or gloom of night"){page = "personnel/53656c6c206120636f756e7472792120576";}
