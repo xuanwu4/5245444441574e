@@ -1,4 +1,4 @@
-function refresh(){ document.getElementById("in").value = ""; document.getElementById("result") = ""; }
+function refresh(){ document.getElementById("in").value = ""; document.getElementById("result").innerHTML = ""; }
 function drowsap(){
    let i = document.getElementById("in").value;
    let out = document.getElementById("result");
