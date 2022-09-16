@@ -12,7 +12,7 @@ function drowsap(){
    else if(i === "over its augurs"){page.push({name:"Personnel File", link:"personnel/617420537069726974206d616b652074686"});}
    else if(i === "only on tuesdays"){page.push({name:"Personnel File", link:"personnel/83f20446964206e6f742074686520477265"});}
    else if(i === "no differently than the hawk"){page.push({name:"Personnel File", link:"personnel/56d20616c6c20666f722074686520757365"});}
-   if(!(page === "")){
+   if(page.length != 0){
       out += "<p style=\"color:Chartreuse;\">Access Granted.</p>\n";
       for(let i = 0; i < page.length; i++){
          out += "<a href=\"" + page[i].link + "\" style=\"color:White;\">>  "+page[i].name+"</a>\n";
