@@ -15,7 +15,7 @@ function drowsap(){
    if(!(page === "")){
       out += "<p style=\"color:Chartreuse;\">Access Granted.</p>\n";
       for(let i = 0; i < page.length; i++){
-         out += "<a href=\"" + page[i].link + "\">>  "+page[i].name+"</a>\n";
+         out += "<a href=\"" + page[i].link + "\" style=\"color:White;\">>  "+page[i].name+"</a>\n";
       }
    }
    document.getElementById("result").innerHTML = out;
