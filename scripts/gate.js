@@ -8,7 +8,7 @@ function refresh(){
 }
 function trydoor(){
   $('.textbox').css('opacity', 1);
-  printDelayed("It's locked.","textbox",30);
+  printDelayed("It's locked.","#textbox",30);
   setTimeout(function(){$('.textbox').css('opacity', 0);},1000);
 }
 function jumpscare(){
