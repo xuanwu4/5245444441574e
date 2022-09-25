@@ -9,9 +9,9 @@
       body {background-color: white;}
       #content {display: flex; align-items: center; justify-content: center; width: 100%; height: 100%;}
       .gate {position: relative; min-width:155px; max-width:100%; min-height:165px; max-height:100%; cursor: pointer; }
+      .gate img{position: absolute; height:100%; width:100%; object-fit: contain; image-rendering: pixelated;}
       .textbox {border: 5px solid grey; background-color: black; font-family: "8bitOperatorPlus-Bold", monospace; color: white; overflow-wrap: break-word; hyphens: auto; width: 500px;}
-      .door {position:absolute; object-fit: contain; image-rendering: pixelated;}
-      .eyes {position:absolute; object-fit: contain; min-width:560px; min-height:160px; opacity:0; z-index:2; image-rendering: pixelated;}
+      .eyes {position: absolute; object-fit: contain; min-width:560px; min-height:160px; opacity:0; z-index:2; image-rendering: pixelated;}
     </style>
     <script crossorigin="anonymous" integrity="sha512-yBpuflZmP5lwMzZ03hiCLzA94N0K2vgBtJgqQ2E1meJzmIBfjbb7k4Y23k2i2c/rIeSUGc7jojyIY5waK3ZxCQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.slim.min.js"></script>
     <script crossorigin="anonymous" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
@@ -23,6 +23,7 @@
          <img class="door" alt="the door" src="https://xuanwu4.github.io/545249534b454c494f4e/intel/door.png">
          <img class="eyes" alt="his eyes" src="https://xuanwu4.github.io/545249534b454c494f4e/intel/eyes.png" style="opacity: 0;">
       </div>
+      <br>
       <div class="textbox" id="textbox" style="opacity: 0;"></div>
     </div>
     <script>
