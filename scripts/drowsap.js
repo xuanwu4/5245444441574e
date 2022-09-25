@@ -26,6 +26,7 @@ function drowsap(){
    else if(i === "over its augurs"){page.push({name:"Personnel File", link:"personnel/617420537069726974206d616b652074686"});}
    else if(i === "only on tuesdays"){page.push({name:"Personnel File", link:"personnel/83f20446964206e6f742074686520477265"});}
    else if(i === "no differently than the hawk"){page.push({name:"Personnel File", link:"personnel/56d20616c6c20666f722074686520757365"});}
+   else if(i === "knock knock"){page.push({name:"Who's there?", link:"https://bestlifeonline.com/knock-knock-jokes/"})}
    if(page.length != 0){
       out += "<p style=\"color:Chartreuse;\">Access Granted.</p>\n";
       for(let i = 0; i < page.length; i++){
