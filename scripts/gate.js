@@ -18,6 +18,6 @@ function jumpscare(){
   $('.door').css('opacity', 0);
   $('.textbox').css('opacity', 0);
   document.title = "...";
-  setTimeout(function(){ window.location.href = "https://xuanwu4.github.io/545249534b454c494f4e"; }, 100);
+  setTimeout(function(){ window.location.href = "https://xuanwu4.github.io/545249534b454c494f4e"; }, 200);
   setTimeout(function(){refresh();},1000);
 }
