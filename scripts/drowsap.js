@@ -11,7 +11,7 @@ function drowsap(){
       page.push({name:"(12-25-0977) Email Notification", link:"intel/entity"});
    }
    else if(i === "with friend or flock beside them"){page.push({name:"Personnel File", link:"personnel/879206e6f742073656c6c20746865206169"});}
-   else if(i === "on wings of ash and bone"){
+   else if(i === "on wings of ash and bone" || i === "on wings of ash"){
       page.push({name:"Personnel File", link:"personnel/0746865206772656174207365612c206173"});
       page.push({name:"Diversion Testfile 01", link:"1"});
       page.push({name:"Diversion Testfile 02", link:"2"});
