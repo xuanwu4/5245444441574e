@@ -1,4 +1,4 @@
-var blip = new Howl({src: ['https://xuanwu4.github.io/545249534b454c494f4e/scripts/text_appear.ogg', 'https://xuanwu4.github.io/545249534b454c494f4e/scripts/text_appear.mp3'], volume: 0.5});
+var blip = new Howl({src: ['https://xuanwu4.github.io/545249534b454c494f4e/scripts/text_appear.ogg', 'https://xuanwu4.github.io/545249534b454c494f4e/scripts/text_appear.mp3'], volume: 0.1});
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }   
