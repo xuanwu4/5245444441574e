@@ -8,7 +8,7 @@ function drowsap(){
    else if(i === "with its wings dumbass"){page.push({name:"Personnel File", link:"personnel/206f6620686973206368696c6472656e3f20"});}
    else if(i === "until it can fly no longer"){
       page.push({name:"Personnel File", link:"personnel/722c2074686520636c6f75647320616e642"});
-      page.push({name:"(12-25-0977) Email Notification", link:"intel/entity"});
+      page.push({name:"(12-25-0977) Email Notification", link:"intel/454e54495459"});
    }
    else if(i === "with friend or flock beside them"){page.push({name:"Personnel File", link:"personnel/879206e6f742073656c6c20746865206169"});}
    else if(i === "on wings of ash and bone" || i === "on wings of ash"){
