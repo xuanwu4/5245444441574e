@@ -181,6 +181,7 @@ var love = [
 		"On Helen's cheek all art of beauty set",
 		"And you in Grecian tires are painted new"
 	];
+
 var springsummer = [
 		"Over hill, over dale",
 		"Through bush, through briar",
@@ -281,6 +282,7 @@ var springsummer = [
 		"'Tis not enough that through the cloud thou break",
 		"To dry the rain on my storm-beaten face"
 	];
+
 var fallwinter = [
 		"Blow, blow, thou winter wind",
 		"Thou art not so unkind as man's ingratitude",
@@ -488,6 +490,7 @@ var fate = [
 		"That I might see what the old world could say",
 		"Whose action is no stronger than a flower"
 	];
+
 var grief = [
 		"Now all these hearts that do on mine depend",
 		"Feeling it break, with bleeding groans they pine",
@@ -610,7 +613,9 @@ var grief = [
 		"Give warning to the world that I am fled",
 		"From this vile world, with vilest worms to dwell"
 	];
+
 var types = {0:war,1:love,2:springsummer,3:fallwinter,4:fate,5:grief};
+
 function makePoem() {
   let available=types[(Math.random()*6) | 0];
   var poemLength = (1 + (Math.random()*3)|0)*4;
