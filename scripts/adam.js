@@ -614,18 +614,18 @@ var grief = [
 var types = {0:war,1:love,2:springsummer,3:fallwinter,4:fate,5:grief};
 function makePoem() {
   let available=types[(Math.random()*6) | 0];
-  let poemLength = ((Math.random()*3)|0)*4;
+  var poemLength = (1 + (Math.random()*3)|0)*4;
   let poem = "";
   let taken = [];
   let lineNo = -1;
   for(let i = 0; i < poemLength; i++){
-    if((i+1)%4 == 0){ poem += "\n"; }
+    if((i%4) == 0){ poem += "\n"; }
     lineNo = ((Math.random()*available.length)|0);
-    while (lineNo in taken){ // if taken, increment until not taken
+    while (taken.includes(lineNo)){ // if taken, increment until not taken
       lineNo++;
       if(lineNo >= available.length) lineNo=0;
     }
-    taken.append(lineNo);
+    taken.push(lineNo);
     poem+=available[lineNo] + "\n";
   }
   return poem;
