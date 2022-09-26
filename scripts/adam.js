@@ -181,7 +181,6 @@ var love = [
 		"On Helen's cheek all art of beauty set",
 		"And you in Grecian tires are painted new"
 	];
-
 var springsummer = [
 		"Over hill, over dale",
 		"Through bush, through briar",
@@ -282,7 +281,6 @@ var springsummer = [
 		"'Tis not enough that through the cloud thou break",
 		"To dry the rain on my storm-beaten face"
 	];
-
 var fallwinter = [
 		"Blow, blow, thou winter wind",
 		"Thou art not so unkind as man's ingratitude",
@@ -490,7 +488,6 @@ var fate = [
 		"That I might see what the old world could say",
 		"Whose action is no stronger than a flower"
 	];
-
 var grief = [
 		"Now all these hearts that do on mine depend",
 		"Feeling it break, with bleeding groans they pine",
