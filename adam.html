@@ -7,14 +7,6 @@
     <script crossorigin="anonymous" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
     <script type="application/javascript" src="https://xuanwu4.github.io/545249534b454c494f4e/scripts/delayprint.js"></script>
     <script type="application/javascript" src="https://xuanwu4.github.io/545249534b454c494f4e/scripts/adam.js"></script>
-    <script>
-      function refresh(){ document.getElementById("mindspace").innerHTML = "";}
-      function think(){ 
-        refresh();
-        let poem = makePoem();
-        printDelayed_pre_nosound(poem,"mindspace",10);
-      }
-    </script>
   </head>
   <body style="display:flex; width:100%; height:100%;" onload="think();" onclick="think();">
     <div id="mindspace" style="align-items:center; justify-content:center;"></div>
