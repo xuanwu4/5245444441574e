@@ -11,20 +11,13 @@
     <script>
       function refresh(){ document.getElementById("mindspace").innerHTML = "";}
       function think(){ 
+        refresh();
         let poem = makePoem();
         printDelayed_pre_nosound(poem,"mindspace",10);
       }
-      $(document).ready(function(){
-          refresh();
-          think();
-        });
-      $(document).on('click','body',function(){
-          refresh();
-          think();
-        });
     </script>
   </head>
-  <body style="display:flex">
+  <body style="display:flex" onload="think();" onclick="think();">
     <div id="mindspace" style="align-items:center; justify-content:center;"></div>
   </body>
 </html>
