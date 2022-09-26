@@ -631,3 +631,10 @@ function makePoem() {
   }
   return poem;
 }
+
+function refresh(){ document.getElementById("mindspace").innerHTML = "";}
+function think(){ 
+  refresh();
+  let poem = makePoem();
+  printDelayed_pre_nosound(poem,"mindspace",10);
+}
