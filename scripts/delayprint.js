@@ -12,3 +12,35 @@ async function printDelayed(txt,id,delay){
     await sleep(delay);
   }
 }
+
+async function printDelayed_pre(txt,id,delay){
+  let out = "";
+  results = document.getElementById(id);
+  for(let i = 0; i < txt.length; i++){
+    blip.play();
+    out += txt[i];
+    results.innerHTML = "<pre>"+out+"</pre>";
+    await sleep(delay);
+  }
+}
+
+async function printDelayed_nosound(txt,id,delay){
+  let out = "";
+  results = document.getElementById(id);
+  for(let i = 0; i < txt.length; i++){
+    out += txt[i];
+    results.innerHTML = "<p>"+out+"</p>";
+    await sleep(delay);
+  }
+}
+
+async function printDelayed_pre_nosound(txt,id,delay){
+  let out = "";
+  results = document.getElementById(id);
+  for(let i = 0; i < txt.length; i++){
+    out += txt[i];
+    results.innerHTML = "<pre>"+out+"</pre>";
+    await sleep(delay);
+  }
+}
+
