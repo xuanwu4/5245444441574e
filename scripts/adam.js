@@ -1,4 +1,3 @@
-// import adam from '/adam.json' assert {type: 'json'};
 var war = [
 		"As the grim lion fawneth o'er his prey",
 		"Sharp hunger by the conquest satisfied",
